@@ -1,0 +1,7 @@
+prix=float(input("donner le prix:\n"))
+price_str = "{:.2f}".format(prix)
+dinars, centimes = price_str.split(".")
+dinars = int(dinars) 
+centimes = int(centimes)
+print("Dinars :", dinars)
+print("Centimes :", centimes)
